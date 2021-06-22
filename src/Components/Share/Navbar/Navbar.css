@@ -3,11 +3,17 @@
     width: 97%;
 }
 .logo img {
-    height: 40px;
+    height: 35px;
     margin-left: 20px;
 }
 .title img{
-    height: 21px;
+    height: 19px;
     margin-left: 10px;
     margin-top: 9px;
+}
+.notification img{
+    height: 25px;
+}
+.ask-help img{
+    height: 25px;
 }

@@ -5,12 +5,12 @@
     position: absolute;
 }
 .project img{
-    height: 22px;
+    height: 20px;
     margin-left: 17px;
     margin-right: 5px;
 }
 .profile img{
-    height: 22px;
+    height: 20px;
     margin-left: 17px;
     margin-right: 3px;
 }
@@ -27,6 +27,6 @@
     padding: 12px;
 }
 .control img{
-    height: 22px;
+    height: 20px;
     margin-right: 5px;
 }

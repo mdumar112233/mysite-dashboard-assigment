@@ -1,4 +1,22 @@
 .mySite1-container{
     position: absolute;
     margin-top: 40px;
+    width: 1110px;
+}
+.under-border{  
+    height: 1px;
+    width: 83.5%;
+    background-color: #CFD3DA;
+    top: 8rem;
+    left: 14rem;
+    position: absolute;
+}
+.permission img{
+    height: 22px;
+}
+.approval img{
+    height: 20px;
+}
+.synced img{
+    height: 21px;
 }
