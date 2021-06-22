@@ -1,4 +1,31 @@
 .sidebar-container{
     background-color: #FCFBFF;
     height: 100vh;
+    position: absolute;
+}
+.project img{
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.profile img{
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.control{
+    background-color: #E1D8F1;
+    width: 225px;
+    margin-left: -14px;
+    padding: 10px 25px;
+}
+.icon{
+    border-left: 4px solid #673AB7;
+    margin-left: -26px;
+    height: 30px;
+    padding: 12px;
+}
+.control img{
+    height: 22px;
+    margin-right: 5px;
 }
