@@ -16,8 +16,7 @@ const MySite = () => {
                     <Features></Features>
                     <div className='add-delete mt-5 ml-4 d-flex'>
                         <div>
-                            {/* <button className='add-btn'><img src={plus} alt="edit" />  Add Role</button> */}
-                            <Link className='dashboard1'  to='/dashboard2'><img src={plus} alt="edit" />  Add Role</Link>
+                            <Link className='dashboard'  to='/dashboard2'><img src={plus} alt="edit" />  Add Role</Link>
                         </div>
                         <div className="edit" role='button'>
                             <img src={edit} alt="edit" />

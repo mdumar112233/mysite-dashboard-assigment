@@ -1,0 +1,55 @@
+.back-btn img{
+    height: 14px;
+}
+.back-btn a:hover{
+    text-decoration: none;
+    color: #673AB7;
+}
+.back-btn a{
+    color: #673AB7;
+}
+.access-btn{
+    border: 0;
+    background-color: transparent;
+    color: #673AB7;
+}
+.under-line1{
+    width: 112px;
+    height: 5px;
+    background-color: #673AB7;
+    margin-left: 27px;
+    border-radius: 3px 3px 0 0;
+}
+.under-line2{
+    width: 97%;
+    height: 1px;
+    background-color: #E5E5E5;
+    margin-left: 27px;
+
+}
+.assign-btn{
+    border: 0;
+    background-color: transparent;
+}
+.access-status-reject{
+    background: #F2F2F2;
+    padding: 5px 35px;
+    border: 1px solid #BDBDBD;
+    border-radius: 18px;
+    color: #BDBDBD;
+}
+.on-btn-bg{
+    position: absolute;
+}
+.on-btn-dot{
+    position: relative;
+    left:11px;
+    bottom: 1px;
+}
+.off-btn-bg{
+    position: absolute;
+}
+.off-btn-dot{
+    position: relative;
+    right: 6px;
+}
