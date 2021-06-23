@@ -7,7 +7,6 @@ import {
 import MySite from './Components/MySite1/MySite';
 import Navbar from './Components/Share/Navbar/Navbar';
 import MySite2 from './Components/MySite2/MySite2';
-import MySite3 from './Components/MySite3/MySite3';
 
 
 function App() {
@@ -24,9 +23,9 @@ function App() {
         <Route path='/dashboard2'>
           <MySite2/>
         </Route>
-        <Route path='/dashboard3'>
+        {/* <Route path='/dashboard3'>
           <MySite3/>
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );

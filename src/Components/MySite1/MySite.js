@@ -16,7 +16,8 @@ const MySite = () => {
                     <Features></Features>
                     <div className='add-delete mt-5 ml-4 d-flex'>
                         <div>
-                            <button className='add-btn'><img src={plus} alt="edit" />  Add Role</button>
+                            {/* <button className='add-btn'><img src={plus} alt="edit" />  Add Role</button> */}
+                            <Link className='dashboard1'  to='/dashboard2'><img src={plus} alt="edit" />  Add Role</Link>
                         </div>
                         <div className="edit" role='button'>
                             <img src={edit} alt="edit" />
@@ -76,11 +77,11 @@ const MySite = () => {
                         </tbody>
                         </table>
 
-                        <div className="switch-dashboard d-flex justify-content-center">
+                        {/* <div className="switch-dashboard d-flex justify-content-center">
                             <Link className='dashboard1'  to='/dashboard1'>Dashboard 1</Link>
                             <Link className='dashboard1'  to='/dashboard2'>Dashboard 2</Link>
                             <Link className='dashboard1'  to='/dashboard3'>Dashboard 3</Link>
-                        </div>
+                        </div> */}
                    </div>
                 </div>
                 <div className='under-border'></div>

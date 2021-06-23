@@ -1,15 +1,76 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Sidebar from '../Share/Sidebar/Sidebar';
+import Features from '../Share/Sidebar/Features/Features';
 
 const MySite2 = () => {
     return (
         <div>
-            <h3>Hello</h3>
-            <div className="switch-dashboard d-flex justify-content-center">
+            <section>
+                <Sidebar></Sidebar>
+                <div className="col-md-10 mySite1-container" style={{marginLeft: '15rem'}}>
+                    <Features></Features>
+                    
+
+                   <div className='mt-4 ml-4'>
+                        <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                            <th scope="col">Deparment/Role Name</th>
+                            <th scope="col" className='text-center'>Access Level</th>
+                            <th scope="col" className='text-center'>No of members</th>
+                            <th scope="col" className='text-center'>Last Update</th>
+                            <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td className='d-flex'><div className='white-dot'></div> <div>Management Team</div></td>
+                            <td className='text-center'><span className='access-status-yes'>All Access</span></td>
+                            <td className='text-center'>4</td>
+                            <td className='text-center'>1 min ago</td>
+                            {/* <td className='text-center'><img src={view} alt="" /></td> */}
+                            </tr>
+                            <tr>
+                            <td className='d-flex'><div className='white-dot'></div> <div>Procurement Team</div></td>
+                            <td className='text-center'><span className='access-status-no'>Restricted Access</span></td>
+                            <td className='text-center'>8</td>
+                            <td className='text-center'>1 min ago</td>
+                            {/* <td className='text-center'><img src={view} alt="" /></td> */}
+                            </tr>
+                            <tr>
+                            <td className='d-flex'><div className='white-dot'></div> <div>Project Team</div></td>
+                            <td className='text-center'><span className='access-status-no'>Restricted Access</span></td>
+                            <td className='text-center'>16</td>
+                            <td className='text-center'>1 min ago</td>
+                            {/* <td className='text-center'><img src={view} alt="" /></td> */}
+                            </tr>
+                            <tr>
+                            <td className='d-flex'><div className='white-dot'></div> <div>IT Team</div></td>
+                            <td className='text-center'><span className='access-status-no'>Restricted Access</span></td>
+                            <td className='text-center'>4</td>
+                            <td className='text-center'>1 min ago</td>
+                            {/* <td className='text-center'><img src={view} alt="" /></td> */}
+                            </tr>
+                            <tr>
+                            <td className='d-flex'><div className='white-dot'></div> <div>Super Admin Team</div></td>
+                            <td className='text-center'><span className='access-status-yes'>All Access</span></td>
+                            <td className='text-center'>1</td>
+                            <td className='text-center'>1 min ago</td>
+                            {/* <td className='text-center'><img src={view} alt="" /></td> */}
+                            </tr>
+                        </tbody>
+                        </table>
+
+                        <div className="switch-dashboard d-flex justify-content-center">
                             <Link className='dashboard1'  to='/dashboard1'>Dashboard 1</Link>
                             <Link className='dashboard1'  to='/dashboard2'>Dashboard 2</Link>
                             <Link className='dashboard1'  to='/dashboard3'>Dashboard 3</Link>
                         </div>
+                   </div>
+                </div>
+                <div className='under-border'></div>
+            </section>
         </div>
     );
 };
