@@ -20,3 +20,57 @@
 .synced img{
     height: 21px;
 }
+.add-delete img{
+    height: 14px;
+    margin-right: 4px;
+}
+.add-btn{
+    border: 0;
+    background-color: #673AB7;
+    padding: 5px 23px;
+    border-radius: 4px;
+    color: #fff;
+}
+.edit img{
+    height: 19px;
+    margin-left: 20px;
+}
+.remove img{
+    height: 19px;
+    margin-left: 20px;
+}
+.white-dot{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.access-status-yes{
+    background: rgba(39, 174, 96, 0.3);
+    padding: 5px 34px;
+    border: 1px solid #27AE60;
+    border-radius: 18px;
+    color: #27AE60;
+}
+.access-status-no{
+    background: #df343470;
+    padding: 5px 10px;
+    border: 1px solid #FF0808;
+    border-radius: 18px;
+    color: #FF0808;
+}
+.switch-dashboard a:hover{
+    text-decoration: none !important;
+    color: #fff;
+}
+.dashboard1{
+    color: #fff;
+    background-color: #673AB7;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 60px 10px;
+}

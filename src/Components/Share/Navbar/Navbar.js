@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             <div className="info-notification d-flex">
                 <div className="avatar-img">
-                    <img src={avatar} role="button" alt="avatar" /><span className='ml-2' role="button">umar</span>
+                    <img src={avatar} role="button" alt="avatar" /><span className='ml-2' role="button">Kishore</span>
                 </div>
                 <div className="notification">
                     <img className='ml-5' role="button" src={notification} alt="" />
