@@ -53,3 +53,18 @@
     position: relative;
     right: 6px;
 }
+
+.access-permission{
+    margin-left: 75px;
+}
+.access-setting{
+    margin-left: 5rem;
+}
+.permission-setting{
+    margin-left: 17rem;
+}
+.side-line{
+    width: 2px;
+    height: 140px;
+    background-color: #BDBDBD;
+}
