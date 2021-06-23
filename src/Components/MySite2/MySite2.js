@@ -53,23 +53,21 @@ const MySite2 = () => {
                         </thead>
                         <tbody>
                             <tr>
-                            <td className='d-flex'><div className='mr-2'><img src={open} alt="open" /></div> <div>Budget</div></td>
+                            <td className='d-flex'><div role='button' className='mr-2'><img src={open} alt="open" /></div> <div>Budget</div></td>
                             <td className='text-center'><span className='access-status-yes'>All Access</span></td>
                             <td className='text-center '>view <span className='text-secondary'>|</span> Create <span className='text-secondary'>|</span> edit <span className='text-secondary'>|</span> Delete</td>
                             <td className='text-center'>1 min ago</td>
                             <td className='text-center' role='button'><img className='on-btn-bg' src={btnBg1} alt="btnBg" /> <img className='on-btn-dot' src={whiteDot} alt="whiteDot" /></td>
                             </tr>
-                            {/* edit part */}
-
                                     <tr>                                
                                         {
                                             openClose ? <td className='d-flex' style={{paddingBottom: '240px'}}>
                                             {
-                                                !openClose ? <div onClick={() => setOpenClose(true)} className='mr-2'><img src={open} alt="open" /> </div> : <div onClick={() => setOpenClose(false)} className='mr-2'><img src={close} alt="open" /> </div>
+                                                !openClose ? <div role='button' onClick={() => setOpenClose(true)} className='mr-2'><img src={open} alt="open" /> </div> : <div role='button' onClick={() => setOpenClose(false)} className='mr-2'><img src={close} alt="open" /> </div>
                                             }
                                         <div>Bidding</div></td> : <td className='d-flex'>
                                             {
-                                                !openClose ? <div onClick={() => setOpenClose(true)} className='mr-2'><img src={open} alt="open" /> </div> : <div onClick={() => setOpenClose(false)} className='mr-2'><img src={close} alt="open" /> </div>
+                                                !openClose ? <div role='button'  onClick={() => setOpenClose(true)} className='mr-2'><img src={open} alt="open" /> </div> : <div role='button' onClick={() => setOpenClose(false)} className='mr-2'><img src={close} alt="open" /> </div>
                                             }
                                         <div>Bidding</div></td>
                                         }
@@ -81,9 +79,7 @@ const MySite2 = () => {
                                         {
                                         !openClose ? <td className='text-center' role='button'><img className='off-btn-bg' src={btnBg2} alt="btnBg" /> <img className='off-btn-dot' src={whiteDot} alt="whiteDot" /></td> : <td className='text-center' role='button'><img className='on-btn-bg' src={btnBg1} alt="btnBg" /> <img className='on-btn-dot' src={whiteDot} alt="whiteDot" /></td>
                                         }
-                                        </tr>
-
-                                     
+                                        </tr>                                    
                                         {
                                             openClose ? <div className='drop-down' style={{position: 'absolute', top: '21rem'}}>
                                                 <p className='ml-5'>All aspects in bidding module</p>
@@ -111,12 +107,8 @@ const MySite2 = () => {
                                             </div>
                                             : ''
                                         }
-                           
-                            {/* edit part */}
-
-                            
                             <tr>
-                            <td className='d-flex'><div className='mr-2'><img src={open} alt="open" /></div> <div>Vendor Portal</div></td>
+                            <td className='d-flex'><div role='button' className='mr-2'><img src={open} alt="open" /></div> <div>Vendor Portal</div></td>
                             <td className='text-center'><span className='access-status-no'>Restricted Access</span></td>
                             <td className='text-center '>view <span className='text-secondary'>|</span> Create <span className='text-secondary'>|</span></td>
                             <td className='text-center'>1 min ago</td>
@@ -124,21 +116,21 @@ const MySite2 = () => {
                             </tr>
 
                             <tr>
-                            <td className='d-flex'><div className='mr-2'><img src={open} alt="open" /></div> <div>Purchase Order/Work Order</div></td>
+                            <td className='d-flex'><div role='button' className='mr-2'><img src={open} alt="open" /></div> <div>Purchase Order/Work Order</div></td>
                             <td className='text-center'><span className='access-status-no'>Restricted Access</span></td>
                             <td className='text-center '>view <span className='text-secondary'>|</span> Create <span className='text-secondary'>|</span></td>
                             <td className='text-center'>1 min ago</td>
                             <td className='text-center' role='button'><img className='on-btn-bg' src={btnBg1} alt="btnBg" /> <img className='on-btn-dot' src={whiteDot} alt="whiteDot" /></td>
                             </tr>
                             <tr>
-                            <td className='d-flex'><div className='mr-2'><img src={open} alt="open" /></div> <div>Organisational Profile</div></td>
+                            <td className='d-flex'><div role='button' className='mr-2'><img src={open} alt="open" /></div> <div>Organisational Profile</div></td>
                             <td className='text-center'><span className='access-status-yes'>All Access</span></td>
                             <td className='text-center '>view <span className='text-secondary'>|</span> Create <span className='text-secondary'>|</span> edit <span className='text-secondary'>|</span> Delete</td>
                             <td className='text-center'>1 min ago</td>
                             <td className='text-center' role='button'><img className='on-btn-bg' src={btnBg1} alt="btnBg" /> <img className='on-btn-dot' src={whiteDot} alt="whiteDot" /></td>
                             </tr>
                             <tr>
-                            <td className='d-flex'><div className='mr-2'><img src={open} alt="open" /></div> <div>Permission & Access Control</div></td>
+                            <td className='d-flex'><div role='button' className='mr-2'><img src={open} alt="open" /></div> <div>Permission & Access Control</div></td>
                             <td className='text-center'><span className='access-status-reject'>No Access</span></td>
                             <td className='text-center'></td>
                             <td className='text-center'>1 min ago</td>
